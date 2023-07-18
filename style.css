@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: auto;
+ }
+
+body {
+
+    background-color: hsl(185, 75%, 39%);
+    margin: 250px auto 0px;
+    background-image: url('images/bg-pattern-bottom.svg') , url('images/bg-pattern-top.svg');
+    background-position: 100% -135%, 0% 138%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 350px;
+    background-image: url('images/bg-pattern-card.svg');
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-radius: 20px;
+    margin: auto;
+    background-color: white;
+    font-weight: 400, 700;
+    box-shadow: 0px 0px 50px 5px hsla(186, 97%, 15%, 0.295);
+    
+    
+}
+
+.image-profile img{
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 80px;
+    padding: 4px;
+    align-items: center; 
+}
+
+/* Name/Years and City */
+.profile-header {
+    padding: 10px;
+}
+
+.name-profile {
+    padding: 10px;
+}
+
+.name-profile #name{        
+    font-weight: 700;
+    padding: 5px;
+    display: inline;
+    color:  hsl(229, 23%, 23%);
+    
+   
+}
+
+.name-profile #years{
+    display: inline;
+    color: hsl(227, 10%, 46%);
+}
+
+.info-profile {
+    padding-bottom: 20px;
+}
+
+.info-profile p{
+
+    display: inline;
+    color: hsl(227, 10%, 46%);
+}
+
+hr {
+    border-top: 1px  #f0f0f0;
+    width: 99%;
+}
+
+
+/* Informações de baixo do nome */
+
+#social-states{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+#social-states div{
+    display: flex;
+    flex-direction: column;
+}
+
+.num-states{
+    color:  hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.name-states {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
