@@ -8,8 +8,8 @@ body {
 
     background-color: hsl(185, 75%, 39%);
     margin: 250px auto 0px;
-    background-image: url('images/bg-pattern-bottom.svg') , url('images/bg-pattern-top.svg');
-    background-position: 100% -135%, 0% 138%;
+    background-image: url('images/bg-pattern-top.svg') , url('images/bg-pattern-bottom.svg');
+    background-position: right 100vh bottom 40vh, left 90vh top 60vh;;
     background-repeat: no-repeat;
 }
 
